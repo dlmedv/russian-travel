@@ -8,3 +8,9 @@
     overflow: hidden;
     box-sizing: border-box;
 }
+
+@media (max-width: 320px) {
+    .page__container {
+        padding-top: 16px;
+    }
+}

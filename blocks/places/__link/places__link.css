@@ -3,11 +3,10 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    /* identical to box height, or 122% */
     text-decoration-line: underline;
     color: #FFFFFF;
     margin-top: 12px;
-    
+
 }
 
 .places__link:hover {
@@ -16,7 +15,6 @@
 
 @media (max-width: 320px) {
     .places__link {
-        
+        margin-left: 16px;
     }
-    
 }
