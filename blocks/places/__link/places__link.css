@@ -1,0 +1,22 @@
+.places__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    margin-top: 12px;
+    
+}
+
+.places__link:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 320px) {
+    .places__link {
+        
+    }
+    
+}

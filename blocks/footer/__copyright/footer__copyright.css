@@ -1,0 +1,10 @@
+.footer__copyright {
+    align-self: center;
+}
+
+@media (max-width: 320px) {
+    .footer__copyright {
+        align-self: start;
+    }
+    
+}

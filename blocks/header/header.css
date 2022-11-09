@@ -1,0 +1,30 @@
+.header {
+    margin: 0 48px 0 48px;
+    width: 1184px;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+@media (max-width: 1024px) {
+    .header {
+        width: 928px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        width: 720px;
+        margin: 0 24px 0 24px;
+    }
+    
+}
+
+@media (max-width: 320px) {
+    .header {
+        width: 288px;
+        margin: 0 12px 0 12px;
+    }
+    
+}
