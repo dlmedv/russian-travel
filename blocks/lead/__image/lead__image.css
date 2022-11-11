@@ -1,26 +1,24 @@
 .lead__image {
-    width: 984px;
+    max-width: 100%;
     padding-top: 64px;
     object-fit: cover;
+    margin: 0 auto;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .lead__image {
-        width: 928px;
         padding-top: 56px;
     }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .lead__image {
-        width: 768px;
         padding-top: 56px;
     }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .lead__image {
-        width: 320px;
         padding-top: 40px;
     }
 }

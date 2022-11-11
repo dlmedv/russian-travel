@@ -1,15 +1,15 @@
 .places__url {
     margin: 0 0 12px 0;
     grid-area: link;
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
     letter-spacing: 2px;
     align-self: flex-end;
+    color: #AAAAAA;
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .places__url {
         margin-left: 16px;
     }

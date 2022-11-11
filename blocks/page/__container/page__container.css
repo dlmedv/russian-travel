@@ -1,16 +1,28 @@
 .page__container {
     padding-top: 28px;
     margin: 0 auto;
-    min-width: 320px;
     max-width: 1280px;
     color: #FFFFFF;
     background-color: #2A2C2F;
-    overflow: hidden;
     box-sizing: border-box;
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 1279px) {
     .page__container {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .page__container {
+        max-width: 768px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .page__container {
+        min-width: 320px;
         padding-top: 16px;
     }
 }

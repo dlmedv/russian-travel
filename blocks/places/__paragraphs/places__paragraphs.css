@@ -2,9 +2,8 @@
     grid-area: text;
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .places__paragraphs {
         margin: 0 16px;
     }
-
 }

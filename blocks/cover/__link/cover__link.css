@@ -1,7 +1,7 @@
 .cover__link {
     max-width: 1184px;
     min-height: 740px;
-    background-image: url(../../../vendor/images/__background\(1\).jpg);
+    background-image: url(../../../images/__background\(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
@@ -14,6 +14,7 @@
     position: relative;
     z-index: 0;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .cover__link::before {
@@ -33,21 +34,28 @@
     opacity: 0.8;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .cover__link {
         max-width: 1024px;
         min-height: 640px;
     }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .cover__link {
         max-width: 768px;
         min-height: 480px;
     }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 620px) {
+    .cover__link {
+        max-width: 620px;
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 320px) {
     .cover__link {
         max-width: 320px;
         min-height: 200px;
