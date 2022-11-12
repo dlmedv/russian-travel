@@ -2,7 +2,6 @@
     padding-top: 92px;
     max-width: 1184px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     margin: 0 auto;
     padding-bottom: 24px;
@@ -25,15 +24,16 @@
 
 @media screen and (max-width: 620px) {
     .footer {
-        max-width: 620px;
+        max-width: 424px;
         flex-direction: column;
+        align-items: flex-start;
     }
 }
 
 @media screen and (max-width: 450px) {
     .footer {
         padding-top: 64px;
-        max-width: 450px;
+        max-width: 321px;
     }
 }
 

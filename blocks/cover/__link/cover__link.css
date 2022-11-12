@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    color: #FFFFFF;
+    color: #FFF;
     position: relative;
     z-index: 0;
     margin: 0 auto;
@@ -49,7 +49,7 @@
 
 @media screen and (max-width: 620px) {
     .cover__link {
-        max-width: 620px;
+        max-width: 424px;
         min-height: 480px;
     }
 }

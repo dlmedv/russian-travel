@@ -1,6 +1,6 @@
 .places__image {
-    grid-area: image;
     width: 100%;
+    grid-area: image;
     object-fit: cover;
     vertical-align: bottom;
 }
