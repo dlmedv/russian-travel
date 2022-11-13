@@ -1,4 +1,4 @@
-.places__url {
+.place__url {
     margin: 0 0 12px 0;
     grid-area: link;
     font-weight: 400;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .places__url {
+    .place__url {
         margin-left: 16px;
     }
 }
